@@ -1,301 +1,619 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- HEAD SECTION -->
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Muhammad Ali Usman</title>
-    <!--GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--BOOTSTRAP MAIN STYLES -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <link href="assets/css/animate.css" rel="stylesheet" />
-    <!--FONTAWESOME MAIN STYLE -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <!--CUSTOM STYLE -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-</head>
-    <!--END HEAD SECTION -->
-<body>   
-     <!-- NAV SECTION -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#header-section">HOME</a></li>
-                    <li><a href="#about-section">ABOUT</a></li>
-                    <li><a href="#products-section">SKILL</a></li>
-                    <li><a href="#portofolio-section">PORTFOLIO</a></li>
-                    <li><a href="#contact-section">CONTACT</a></li>
+<html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
+    <head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="cvCard - Responsive HTML5 vCard Template">
+        <meta name="keywords" content="vcard, html5, portfolio">
+        <meta name="author" content="Pixelwars">
+
+        <title>cvCard</title>
+
+        <!-- FAV and TOUCH ICONS -->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+
+		<script src="js/modernizr.custom.js"></script>
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+        <link rel="stylesheet" type="text/css" href="js/google-code-prettify/prettify.css">
+        <link rel="stylesheet" type="text/css" href="css/uniform.default.css">
+        <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+        <link rel="stylesheet" type="text/css" href="js/mediaelement/mediaelementplayer.css">
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--[if lte IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/selectivizr-min.js"></script>
+        <![endif]--> 
+	</head>
+	<body>
+        <!-- CONTAINER -->
+	    <div class="container" id="container">
+            <!-- HEADER -->
+            <header class="header">
+                <img src="images/myphotos/profile.jpeg" alt="avatar" width="150">
+				<h1>Muhammad Ali Usman</h1>
+                <p>Backend Programmer</p>
+                <!-- NAV MENU -->
+                <ul class="vs-nav">
+<li><a href="#/about">about me</a></li>
+                    <li><a href="#/portfolio">portfolio</a></li>
+                    <li><a href="#/contact">contact</a></li>
+                    <li><a href="#/resume">resume</a></li>
                 </ul>
-            </div>
-           
-        </div>
-    </div>
-     <!--END NAV SECTION -->
-     <!-- HEADER SECTION -->
-    <div id="header-section" style="background-color: #000000">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-md-8 col-md-offset-2">
-                    <br /> <br /> <br />
-                    <br />
-                    <img src="https://d13yacurqjgara.cloudfront.net/users/223408/screenshots/2134810/me-dribbble-size-001-001_1x.png" alt="avatar" class="img-circle" style="width: 190px; height:180px ">
-                    <h2><strong>Hai... Nama saya Ali</strong></h2>
-                    <h2> Web Developer</h2>
-                    <br /><br />
-                    <p style="color: #fff">untuk melihat profil saya silahkan klik yang lompat-lompat di bawah..</p>
-                     
-                    <br /> <br /><br /> <br />
-                    <a href="#about-section"> <img src="assets/img/scroll.png" class="animated infinite bounce" alt="#"> </a>
+                <!-- NAV MENU -->
+                <!-- SEARCH --> 
+                <div class="header-search">
+                    <form role="search" method="get" id="search-form" action="#">
+                      <input type="text" value="" name="s" id="search" placeholder="ENTER KEYWORD">
+                      <input type="submit" id="search-submit" title="Search" value="→">
+                    </form>
                 </div>
-            </div>
-        </div>
-    </div> 
-    <!--END HEADER SECTION -->
-    <!--ABOUT SECTION -->
-    <div id="about-section" >
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Siapa Saya ?</h1>
-                    <h4>Saya adalah saya bukan yang lain.</h4>
-                </div >
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row main-low-margin text-center">
-                <div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <img class="img-circle img-responsive center-block" src="assets/img/profil.jpg" alt="Photo Profil" style="width: 100px">
-                    <h4><strong>Muhammad Ali Usman</strong> </h4>
-                    <p>Web Developer<br>Bangsacerdas.com</p>
-                    <p>
-                        <a href="https://www.facebook.com/muhammad.aliusman.9212"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
-                        <a href="https://twitter.com/Muh_AliUsman"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
-                        <a href="https://plus.google.com/u/0/117034745103222494324"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
-                        <a href="https://www.linkedin.com/in/muhammad-ali-usman-56202512a/"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
-                        <a href="https://github.com/muhaliusman"><i class="fa fa-github-square fa-2x color-pinterest"></i></a>
-                    </p>
-                </div>
-                <div class="col-md-7 col-sm-7 col-md-offset-1  text-justify" data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    <h3> Sekilas Tentang Saya</h3>
-                    <p>
-                        Hai, perkenalkan, nama saya Muhammad Ali Usman. Biasa di sapa dengan nama Ali, atau Usman, atau Maman, atau Ajiz, kadang juga Aliando. Saya seorang muslim yang mempunyai hobi main game. saya seorang web developer dengan bahasa pemrogaman PHP dan kawan-kawannya. 
-
-                    </p>
-                    <p>
-                        Kesibukan saya sekarang adalah masih mengembangkan sebuah startup yang di harapkan bisa menjadi salah satu startup yang mempunyai nama di Indonesia. sebelumnya saya sempat bekerja di 3 perusahaan Jepang yang bergerak di bidang manufactur
-                    </p>
-                    <p>
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Klik Untuk Melihat Daftar Riwayat Hidup</button>
-                    </p>
-                </div>
-            </div>
-              <!-- ./ Row Content-->
-        </div>
-    </div>
-    <!-- END ABOUT SECTION -->
-   
-   
-    <!--WORK/SKILL SECTION -->
-    <div id="products-section" >
-         <div class="container" >
-            <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Skill</h1>
-                    <h4>
-                        Skill yang tercantum hanya skill tentang programming. skill-skill yang lain seperti menyanyi sengaja tidak di cantumkan.
-                    </h4>
-                </div>
-            </div>
-             <!-- ./ Main Heading-->
-             <hr />
-            <div class="row main-low-margin" >
-                <div class="skillbar clearfix " data-percent="80%" data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">80%</div>
-                </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="50%" data-scrollreveal="enter rigth and move 100px, wait 0.7s">
-                    <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-                    <div class="skillbar-bar" style="background: #3498db;"></div>
-                    <div class="skill-bar-percent">50%</div>
-                </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="45%" data-scrollreveal="enter left and move 100px, wait 1s">
-                    <div class="skillbar-title" style="background: #2c3e50;"><span>JS</span></div>
-                    <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                    <div class="skill-bar-percent">45%</div>
-                </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="40%" data-scrollreveal="enter rigth and move 100px, wait 1.3s">
-                    <div class="skillbar-title" style="background: #46465e;"><span>Jquery</span></div>
-                    <div class="skillbar-bar" style="background: #5a68a5;"></div>
-                    <div class="skill-bar-percent">40%</div>
-                </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="50%" data-scrollreveal="enter left and move 100px, wait 1.6s">
-                    <div class="skillbar-title" style="background: #333333;"><span>PHP</span></div>
-                    <div class="skillbar-bar" style="background: #525252;"></div>
-                    <div class="skill-bar-percent">50%</div>
-                </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="40%" data-scrollreveal="enter left and move 100px, wait 1.9s">
-                    <div class="skillbar-title" style="background: #27ae60;"><span>Laravel</span></div>
-                    <div class="skillbar-bar" style="background: #2ecc71;"></div>
-                    <div class="skill-bar-percent">40%</div>
-                </div> <!-- End Skill Bar -->
-
-                <div class="skillbar clearfix " data-percent="40%" data-scrollreveal="enter left and move 100px, wait 2.2s">
-                    <div class="skillbar-title" style="background: #124e8c;"><span>Git</span></div>
-                    <div class="skillbar-bar" style="background: #4288d0;"></div>
-                    <div class="skill-bar-percent">40%</div>
-                </div> <!-- End Skill Bar -->
-
-               
-            </div>
-            <!-- ./ Row Content-->
-            <hr />
-        </div>
-    </div>
-    <!--END WORK/PRODUCTS SECTION -->
-    <!--PORTFOLIO SECTION -->
-    <div id="portofolio-section">
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Portofolio</h1>
-                    <h4>
-                       Berikut adalah beberapa Project yang pernah saya kerjakan
-                    </h4>
-                </div>
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row">
-                <div class="col-sm-2 col-sm-offset-2" data-scrollreveal="enter top and move 100px, wait 0.5s"">
-                    <div class="thumbnail">
-                        <img src="assets/img/product/cekrek.png">
-                        <div class="caption">
-                            <h6 style="text-align: center"><strong>Website Komunitas Potography</strong></h6>
+                <!-- SEARCH -->
+			</header>
+            <!-- HEADER -->
+            <!-- WRAPPER -->
+			<div class="wrapper"> <!-- PAGE : ABOUT -->
+				<section id="about" class="page">
+					<div class="content">
+                        <!-- row -->
+                        <div class="row">
+                            <!-- column 8/12 -->
+                        	<div class="col-md-12">
+                                <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT ME</span></h2>
+                                <!-- intro -->
+                                <div class="intro">
+                                    <h2>
+                                        Hello. I am
+                                        <span class="rotate-words">
+                                            <span>a backend programmer.</span>
+                                            <span>a freelancer.</span>
+                                            <span>a coffee lover.</span>
+                                        </span>
+                                        <br> 
+                                        I am 23 years old. I am <strong>Moslem</strong>, and I am <strong>Indonesian</strong>
+                                        <br> 
+                                        I love <strong>clean code.</strong>
+                                    </h2>
+                                </div>
+                                <!-- intro -->
+                            </div>
+                            <!-- column 8/12 -->
                         </div>
-                        
-                    </div>
-                </div>
-                <div class="col-sm-4" data-scrollreveal="enter top and move 100px, wait 1s"">
-                    <div class="thumbnail">
-                            <img src="assets/img/product/isalam1.png">
-                            <hr>
-                            <img src="assets/img/product/isalam.png">
-                        
-                        <div class="caption">
-                            <h6 style="text-align: center"><strong>Social Media</strong></h6>
+					</div>
+				</section>
+                <!-- PAGE : ABOUT -->
+                <!-- PAGE : PORTFOLIO -->
+				<section id="portfolio" class="portfolio page">
+					<div class="content">
+                        <h2 class="section-title center"><span><i class="icon-leaf"></i>MY WORKS</span></h2>
+                        <!--FILTERS-->
+                        <ul id="filters" class="filters">
+                          <li class="current"><a href="#" data-filter="*">ALL</a></li>
+                          <li><a href="#" data-filter=".dipa">DIPA KEMENAG PAPUA</a></li>
+                          <li><a href="#" data-filter=".budgeting">E-BUDGETING CV. CANDIMAS</a></li>
+                          <li><a href="#" data-filter=".cs">CS SYSTEM PT. SMP</a></li>
+                          <li><a href="#" data-filter=".crm">CRM</a></li>
+                          <li><a href="#" data-filter=".gis">WEB GIS</a></li>
+                        </ul>
+                        <!--FILTERS-->
+                        <!-- PORTFOLIO -->
+                        <div class="portfolio-items media-grid" data-layout="masonry">                          
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell crm image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/crm_admin.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/crm_admin.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>Customer Relathionship Management</h3>
+                                <p class="category">user</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell crm image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/crm_configuration.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/crm_configuration.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>Customer Relathionship Management</h3>
+                                <p class="category">configuration</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell crm image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/crm_dashboard.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/crm_dashboard.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>Customer Relathionship Management</h3>
+                                <p class="category">dashboard</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell dipa image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/esilaku_login.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/esilaku_login.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>DIPA KEMENAG PAPUA</h3>
+                                <p class="category">login</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell dipa image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/esilaku_history.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/esilaku_history.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>DIPA KEMENAG PAPUA</h3>
+                                <p class="category">history payment</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell dipa image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/esilaku_anggaran.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/esilaku_anggaran.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>DIPA KEMENAG PAPUA</h3>
+                                <p class="category">budgeting</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell budgeting image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/ebudgeting.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/ebudgeting.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>E-Budgeting CV. Candimas</h3>
+                                <p class="category">login</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell budgeting image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/ebudgeting_user.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/ebudgeting_user.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>E-Budgeting CV. Candimas</h3>
+                                <p class="category">users</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell budgeting image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/staff_candimas.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/staff_candimas.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>E-Budgeting CV. Candimas</h3>
+                                <p class="category">budgeting</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell gis image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/gis_login.jpg" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/gis_login.jpg" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>MAP ENT</h3>
+                                <p class="category">login</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell gis image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/gis_profile.jpg" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/gis_profile.jpg" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>MAP ENT</h3>
+                                <p class="category">profile</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell gis image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/git_setup.jpg" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/git_setup.jpg" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>MAP ENT</h3>
+                                <p class="category">setup</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell cs image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/cs_dashboard.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/cs_dashboard.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>CS SYSTEM PT. SMP</h3>
+                                <p class="category">dashboard</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell cs image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/cs_pic.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/cs_pic.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>CS SYSTEM PT. SMP</h3>
+                                <p class="category">report</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
+                          <!-- portfolio-item - lightbox image -->  
+                          <div class="media-cell cs image hentry">
+                            <div class="media-box">
+                                <img src="images/portfolio/cs_schedule.png" alt="portfolio-post">
+                                <div class="mask"></div>
+                                <!-- lightbox - image --> 
+                                <a href="images/portfolio/cs_schedule.png" title="an illustration by Vasili Tkach" data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                                <!-- lightbox - image -->
+                            </div>
+                            <div class="media-cell-desc">
+                                <h3>CS SYSTEM PT. SMP</h3>
+                                <p class="category">schedule</p>
+                            </div>
+                          </div>
+                          <!-- portfolio-item - lightbox image -->
                         </div>
-                        
+                        <!-- PORTFOLIO -->
                     </div>
-                </div>
-                <div class="col-sm-2" data-scrollreveal="enter top and move 100px, wait 0.7s"">
-                    <div class="thumbnail">
-                        <img src="assets/img/product/gis.png">
-                        <div class="caption">
-                            <h6 style="text-align: center"><strong>Web GIS</strong></h6>
+                    <!-- CONTENT -->
+				</section>
+                <!-- PAGE : PORTFOLIO -->
+                <!-- PAGE : CONTACT -->
+				<section id="contact" class="page">
+					<div class="content">
+                        <!-- row -->
+                        <div class="row">
+                            <!-- column 6/12 -->
+                            <div class="col-md-6">
+                                <h2 class="section-title"><span><i class="icon-address-book"></i>LET'S GET IN TOUCH</span></h2>
+                                <!-- LETTER -->
+                                <div class="letter">
+                                    <h4 class="letter-title">Muhammad Ali Usman</h4>
+                                    <div class="stamp">
+                                      <img src="images/myphotos/ok.jpg" alt="stamp">
+                                    </div>
+                                    <div class="letter-info">
+                                        <p><i class="icon-at"></i>muh.aliusman@yahoo.co.id</p>
+                                        <p><i class="icon-phone"></i>085600346540</p>
+                                        <p><i class="icon-location"></i>Ds. Jetakkidul, Rt 004/001, Kec. Wonopringgo, Kab. Pekalongan, Jawa Tengah, Indonesia</p>
+                                    </div>
+                                </div>
+                          </div>
+                          <!-- column 6/12 -->
+                          <!-- column 6/12 -->
+                          <div class="col-md-6">
+                                  <h2 class="section-title"><span><i class="icon-chat"></i>LET'S SOCIALIZE</span></h2>
+                          
+                                  <!-- SOCIAL -->
+                                  <ul class="social">
+                                    <li><a class="facebook" href="https://www.facebook.com/muhammad.aliusman.9212"></a></li>
+                                    <li><a class="linkedin" href="https://www.linkedin.com/in/muhammad-ali-usman-35002412a/"></a></li>
+                                    <li><a class="github" href="https://github.com/muhaliusman"></a></li>
+                                    <li><a class="instagram" href="https://www.instagram.com/muh.aliusman/"></a></li>
+                                  </ul>
+                                  <!-- SOCIAL -->
+                          </div>
+                          <!-- column 6/12 --><!-- column 6/12 -->
                         </div>
-                        
+                        <!-- row -->
+                        <!-- row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="section-title"><span><i class="icon-location"></i>LOCATION</span></h2>                                                   
+                                <!-- GOOGLE MAP -->
+                                <div class="map">
+                                  <div data-latitude="-7.007102" data-longitude="109.633372" data-zoom="4" id="map-canvas" class="map-canvas"></div>
+                                </div>
+                                <!-- GOOGLE MAP -->
+                            </div>
+                        </div>
+                        <!-- row -->
                     </div>
-                </div>
-            </div>
-             <!-- ./ Row Content-->
-        </div>
-    </div>  
-    <!--END CONTACT SECTION --> 
-    <!--CONTACT SECTION -->
-    <div id="contact-section">
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Kontak</h1>
-                    <h4>
-                       Jika anda membutuhkan saya untuk mengerjakan sebuah project misalnya, silahkan hubungi saya. dengan sangat senang hati saya akan membantu anda.
-                    </h4>
-                </div>
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row">
-                <div class="col-md-12  col-sm-12 ">
-                    <div class="col-md-6  " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                        <h3>Alamat Rumah</h3>
-                        <hr />
-                        <p>
-                        Ds. Jetakkidul, Rt04/01<br />
-                        Kec. Wonopringgo<br />
-                        Kab. Pekalongan<br />                          
-                        <br />
-                        Email: muhaliusman@yahoo.co.id<br />
-                            </p>
-                            <br><br><br><br><br><br>
-                       
+				</section>
+                <!-- PAGE : CONTACT -->
+
+                <!-- PAGE : RESUME -->
+				<section id="resume" class="page">
+					<div class="content">
+						<!-- CONTENT -->
+                     	<!-- row -->
+                        <div class="row">
+                            <!-- col 6/12 -->
+                            <div class="col-md-6">
+                                <!-- timeline -->
+                                <div class="timeline">
+                                    <h2><i class="fa fa-flask"></i>WORK HISTORY</h2>
+                                    <div class="event current">
+                                        <span class="date">2017</span>
+                                        <h4>Web Developer</h4>
+                                        <h5>Bangsa Cerdas</h5>
+                                        <p>I create a web application according to the client request.</p>
+                                    </div>
+                                    <div class="event">
+                                        <span class="date">2016</span>
+                                        <h4>Production Operator</h4>
+                                        <h5>PT. Sharp Electronics Indonesia</h5>
+                                        <p>I worked as a operator for 10 months.</p>
+                                    </div>
+                                    <div class="event">
+                                        <span class="date">2015</span>
+                                        <h4>QA Lab.</h4>
+                                        <h5>PT. KAO Indonesia</h5>
+                                        <p>I worked in KAO for a year.</p>
+                                    </div>
+                                    <div class="event">
+                                        <span class="date">2013</span>
+                                        <h4>Production Operator</h4>
+                                        <h5>PT. Yamaha Motor MFG West Java</h5>
+                                        <p>I worked in Yamaha for two years.</p>
+                                    </div>
+                               </div>
+                               <!-- timeline -->
+                               <!-- timeline -->
+                               <div class="timeline">
+                                    <h2><i class="icon-college"></i>EDUCATION HISTORY</h2>
+                                    <div class="event">
+                                        <span class="date">2006</span>
+                                        <h4>SDI Jetakkidul</h4>
+                                        <p><i class="fa fa-map-marker"></i> Pekalongan Regency</p>
+                                    </div>
+                                    <div class="event">
+                                        <span class="date">2009</span>
+                                        <h4>SMP N 1 Wonopringgo</h4>
+                                        <p><i class="fa fa-map-marker"></i> Pekalongan Regency</p>
+                                    </div>
+                                    <div class="event">
+                                        <span class="date">2012</span>
+                                        <h4>SMA 1 Kajen (IPA)</h4>
+                                        <p><i class="fa fa-map-marker"></i> Pekalongan Regency</p>
+                                    </div>
+                                    <div class="event">
+                                        <span class="date">2017</span>
+                                        <h4>Bina Sarana Informatika (MI)</h4>
+                                        <p><i class="fa fa-map-marker"></i> Karawang Regency</p>
+                                    </div>
+                               </div>
+                               <!-- timeline -->
+                            </div> 
+                              <!-- col 6/12 -->
+                               <!-- col 6/12 -->
+                               <div class="col-md-6">
+                                    <h2 class="section-title"><span><i class="icon-cog-1"></i>DEVELOPMENT SKILLS</span></h2>
+                                    <!-- DEV SKILLS -->
+                                    <div class="skillset">
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>HTML5</h4>
+                                            <div class="bar" data-percent="80">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>CSS3</h4>
+                                            <div class="bar" data-percent="60">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>PHP</h4>
+                                            <div class="bar" data-percent="70">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Codeigniter</h4>
+                                            <div class="bar" data-percent="60">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Laravel</h4>
+                                            <div class="bar" data-percent="70">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Javascript</h4>
+                                            <div class="bar" data-percent="60">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>jQuery</h4>
+                                            <div class="bar" data-percent="50">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Mysql</h4>
+                                            <div class="bar" data-percent="60">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>postgre</h4>
+                                            <div class="bar" data-percent="30">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Wordpress</h4>
+                                            <div class="bar" data-percent="20">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>go</h4>
+                                            <div class="bar" data-percent="15">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                    </div>
+                                    <!-- DEV SKILLS -->
+                                    <h2 class="section-title"><span><i class="icon-doc-alt"></i>DOWNLOAD MY CV</span></h2>
+                                    <p>You can download my CV in pdf format if you like.</p>
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <div class="download-button">
+                                        <a href="https://drive.google.com/file/d/1XuBkY9BuLEnpILxg_Y2JKQ_wAuJ6ZgsM/view" class="button primary">DOWNLOAD CV</a>
+                                    </div>
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <h2 class="section-title"><span><i class="icon-linkedin"></i>VIEW MY LINKEDIN PROFILE</span></h2>
+                                    
+                                    <p>You can view my LinkedIn profile.</p>
+                                    
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <div class="download-button">
+                                        <a href="https://www.linkedin.com/in/muhammad-ali-usman-35002412a/" class="button primary">MY LINKEDIN PROFILE</a>
+                                    </div>
+                                    <!-- DOWNLOAD BUTTON -->
+                               </div>
+                               <!-- col 6/12 -->
+                        </div>
+                        <!-- row -->
                     </div>
-                    <div class="col-md-6  " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                        <h3>Fast Response</h3>
-                        <hr />
-                        <h1 style="color: #0000ff"><i class="fa fa-mobile fa-1x color-pinterest"></i> 085717647462</h1>
-                    </div>
-                   
-
-                </div>
-            </div>
-             <!-- ./ Row Content-->
-        </div>
-    </div>  
-    <!--END CONTACT SECTION --> 
-    <!--FOOTER SECTION -->
-    <div id="footer" style="background-color: #000">
-        <div class="container">
-            <div class="row ">
-                &copy; Muhammad Ali Usman			
-		
-            </div>
-            
-        </div>
-       
-    </div>  
-    <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">DAFTAR RIWAYAT HIDUP</h4>
-      </div>
-      <div class="modal-body">
-        <h1>Belum Dibikin Hehehe</h1>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-    <!--END FOOTER SECTION --> 
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY LIBRARY -->
-    <script src="assets/js/jquery.js"></script>
-    <!-- CORE BOOTSTRAP LIBRARY -->
-    <script src="assets/js/bootstrap.min.js"></script>
-     <!-- SCROLL REVEL LIBRARY FOR SCROLLING ANIMATIONS-->
-    <script src="assets/js/scrollReveal.js"></script>
-       <!-- CUSTOM SCRIPT-->
-    <script src="assets/js/custom.js"></script>
-</body>
+                    <!-- CONTENT -->
+				</section>
+                <!-- PAGE : RESUME -->
+           	</div>
+            <!-- WRAPPER -->
+		</div>
+        <!-- CONTAINER -->
+    <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+    <div class="p-overlay"></div>
+    <div class="p-overlay"></div>
+    <!-- ALERT : used for contact form mail delivery alert -->
+    <div class="site-alert animated"></div>
+    <!-- SCRIPTS -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery.address-1.5.min.js"></script>
+        <script src="js/triple.layout.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/nprogress/nprogress.js"></script>
+        <script src="js/fastclick.js"></script>
+		<script src="js/jquery.imagesloaded.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.uniform.min.js"></script>
+        <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="js/jquery.tooltipster.min.js"></script>
+        <script src="js/google-code-prettify/prettify.js"></script>
+        <script src="js/twitterFetcher_v10_min.js"></script>
+        <script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+        <script src="js/send-mail.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+        <script src="js/main.js"></script>
+	</body>
 </html>
